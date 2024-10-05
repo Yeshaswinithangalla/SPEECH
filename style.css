@@ -1,0 +1,30 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+   
+}
+form{
+    height: 100vh;
+    width: 100vw;
+    background-color: #999;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+
+}
+#text{
+    height: 80px;
+    width:300px;
+    padding: 10px;
+    border:none;
+    border-radius: 10px;
+
+}
+[type="submit"]{
+    padding: 10px 20px;
+    border:none;
+    border-radius: 10px;
+
+}
